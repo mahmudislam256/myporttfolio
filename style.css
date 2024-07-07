@@ -1,0 +1,93 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"width" 100;
+}
+
+/* shahard style */
+.text-primary{
+    color: chartreuse;
+}
+
+.dark-2{
+color: #474747;
+}
+
+.btn-primary{
+background-color: chartreuse;
+font-weight: bold;
+color: white;
+padding: 18px 36px;
+/* border: none; */
+border-radius: 5px;
+}
+
+/* header  */
+.header{
+    background-image: url(/images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+
+}
+
+/* Nave Style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title {
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+/* banner style  */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px ;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-profile-picture {
+    width: 580px;
+}
