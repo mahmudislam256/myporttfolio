@@ -4,11 +4,6 @@
 
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 800 */
-*{
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-}
 
 .open-sans {
   font-family: "Open Sans", sans-serif;
@@ -185,18 +180,19 @@ main section {
 }
 
 
-/* footer styles */
 
+
+/* footer styles */
 footer{
     padding: 130px 230px;
     display: flex;
     gap: 100px;
 }
-
-.footer-colum{
+.footer-column{
     width: 50%;
 }
-footer input [type="text"], footer input [type="email"], footer textarea {
+
+footer input[type="text"],  footer input[type="email"], footer textarea{
     height: 64px;
     border-radius: 5px;
     background-color: white;
